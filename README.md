@@ -1,12 +1,12 @@
-# Wireframe2Code
+# Sketch2Spec
 
-Wireframe2Code is an AI-powered design-to-code assistant that helps developers and designers transform hand-drawn wireframes and UI sketches into production-ready React components. It handles everything from real-time image analysis using vision AI, generating clean JSX code with Tailwind CSS, providing live component previews, and offering instant code regeneration for iterative refinement.
+Sketch2Spec is an AI-powered design-to-code assistant that helps developers and designers transform hand-drawn wireframes and UI sketches into production-ready React components. It handles everything from real-time image analysis using vision AI, generating clean JSX code with Tailwind CSS, providing live component previews, and offering instant code regeneration for iterative refinement.
 
-![Wireframe2Code Preview](https://via.placeholder.com/1200x600/0ea5e9/ffffff?text=Wireframe2Code)
+![Sketch2Spec Preview](https://via.placeholder.com/1200x600/0ea5e9/ffffff?text=Sketch2Spec)
 
 ## Problem We Aim to Solve
 
-The design-to-development handoff is slow and inefficient. As developers, we've all been through the cycle of manually translating mockups into code, guessing at spacing and colors, writing repetitive component structures, and hoping the result matches the design. Most of the time, there's back-and-forth with designers, no clear starting point, and hours spent on boilerplate. Wireframe2Code was built to fix that - by helping you convert any wireframe or UI screenshot into working React code instantly, preview it across devices, and iterate quickly until it's perfect.
+The design-to-development handoff is slow and inefficient. As developers, we've all been through the cycle of manually translating mockups into code, guessing at spacing and colors, writing repetitive component structures, and hoping the result matches the design. Most of the time, there's back-and-forth with designers, no clear starting point, and hours spent on boilerplate. Sketch2Spec was built to fix that - by helping you convert any wireframe or UI screenshot into working React code instantly, preview it across devices, and iterate quickly until it's perfect.
 
 ## Installation
 
@@ -22,8 +22,8 @@ The design-to-development handoff is slow and inefficient. As developers, we've 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Wireframe2Code.git
-   cd Wireframe2Code
+   git clone https://github.com/yourusername/Sketch2Spec.git
+   cd Sketch2Spec
    ```
 
 2. **Install dependencies**
@@ -86,7 +86,7 @@ The design-to-development handoff is slow and inefficient. As developers, we've 
 
 ### AI-Powered Code Generation
 
-Wireframe2Code uses Google Gemini's vision models to analyze your wireframes and UI screenshots in real-time. Simply upload an image, and it generates complete React components with Tailwind CSS styling. You can choose between two models:
+Sketch2Spec uses Google Gemini's vision models to analyze your wireframes and UI screenshots in real-time. Simply upload an image, and it generates complete React components with Tailwind CSS styling. You can choose between two models:
 
 - **Gemini Flash (Optimized)**: Faster generation, ideal for simple to medium complexity UIs
 - **Gemini Pro (Precision)**: Higher detail analysis, perfect for complex layouts and intricate designs
@@ -95,7 +95,7 @@ The AI extracts layout hierarchies, identifies UI elements, matches colors and t
 
 ### Smart Code Sanitization & Optimization
 
-Wireframe2Code analyzes the generated code to:
+Sketch2Spec analyzes the generated code to:
 
 - Remove TypeScript syntax for browser compatibility
 - Convert ES6 imports to UMD globals for iframe rendering
@@ -116,7 +116,7 @@ You can preview your generated components instantly in a sandboxed iframe enviro
 
 ### Iterative Regeneration
 
-Wireframe2Code lets you regenerate code directly from the preview page without re-uploading your image. This enables rapid iteration:
+Sketch2Spec lets you regenerate code directly from the preview page without re-uploading your image. This enables rapid iteration:
 
 - Refine the generated output with a single click
 - Get variations of the same design
@@ -138,7 +138,7 @@ Upload your wireframes securely through Cloudinary integration:
 ## Project Structure
 
 ```
-Wireframe2Code/
+Sketch2Spec/
 ├── app/
 │   ├── api/
 │   │   ├── ai/
@@ -357,6 +357,6 @@ This project is licensed under the MIT License.
 
 ---
 
-**Built with ❤️ by the Wireframe2Code Team**
+**Built with ❤️ by the Sketch2Spec Team**
 
 *Transform your sketches into reality, one component at a time.*
