@@ -2,7 +2,7 @@
 
 Sketch2Spec is an AI-powered design-to-code assistant that helps developers and designers transform hand-drawn wireframes and UI sketches into production-ready React components. It handles everything from real-time image analysis using vision AI, generating clean JSX code with Tailwind CSS, providing live component previews, and offering instant code regeneration for iterative refinement.
 
-![Sketch2Spec Preview](https://via.placeholder.com/1200x600/0ea5e9/ffffff?text=Sketch2Spec)
+![Sketch2Spec Preview](./assets/hero-preview.png)
 
 ## Problem We Aim to Solve
 
